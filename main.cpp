@@ -10,10 +10,14 @@ int main() {
     cout << "Zgjedhja: ";
     cin >> choice;
 
-    if (choice == 1)
+    if (choice == 1){
         cout << "Mire se erdhe!" << endl;
+        cout << "Programi u hap!" << endl;
+        cout << "A ke ndonje pyetje?" << endl;
+    }
     else
         cout << "Programi u mbyll." << endl;
 
+    
     return 0;
 }
